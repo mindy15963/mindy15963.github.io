@@ -1,7 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
 <body>
-  <h1>민디스트 미래정보기술연구소</h1>
-  <p>오픈 예정입니다. Coming Soon</p>
+    <header>
+        <h1>민디스트의 홈페이지에 오신 것을 환영합니다!</h1>
+    </header>
+
+    <nav>
+        <a href="#about">소개</a>
+        <a href="#gallery">갤러리</a>
+        <a href="#contact">연락처</a>
+    </nav>
+
+    <section id="about">
+        <h2>소개</h2>
+        <p>민디스트(1999년 3월 31일~)은 대한민국의 개발자, 인플루언서이다.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>갤러리</h2>
+        <img src="https://via.placeholder.com/300" alt="Sample Photo">
+        <img src="https://via.placeholder.com/300" alt="Sample Photo">
+        <img src="https://via.placeholder.com/300" alt="Sample Photo">
+    </section>
+
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>메일주소: <a href="mailto:mindy15963@naver.com">mindy15963@naver.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2018~2025 Mindiest. All rights reserved.</p>
+    </footer>
 </body>
 </html>
